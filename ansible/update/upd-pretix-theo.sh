@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd /root/pretix_plugins
+
 echo "Updating Pretix..."
 
 docker pull pretix/standalone:stable #Downloading new image
